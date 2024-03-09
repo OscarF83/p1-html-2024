@@ -2,22 +2,18 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 div.sheet {
-  /*padding-top: 4em;
-  padding-left: 4em;
-  padding-bottom: 4em;
-  padding-right: 6em;*/
   padding: 4em;
   background-color: lightgrey;
 }
 div.header {
   background-color: rgb(48, 86, 168);
-  /*background-color: rgb(114, 161, 198);*/
   color: aliceblue;
   text-align: center;
   display: flex;
   flex-direction: row;
-  flex: 1;
   padding: 0em;
+  position: sticky;
+  top: 0;
 }
 img {
   padding-top: 1em;
@@ -27,25 +23,19 @@ img {
 }
 div.title {
   flex: 1;
-  /*text-align: center;*/
 }
 h1 {
-  /*border: 1px solid red;*/
-  padding-left: 0em;
   font-weight: lighter;
-  /*font-size: 3em;*/
   font-size: calc(1rem + 2vw);
 }
 h2 {
   padding-bottom: 1em;
   font-weight: lighter;
-  /*font-size: 1.5em;*/
   font-size: calc(0.5rem + 1vw);
 }
 div.left {
-  /*border: 2px solid grey;*/
   background-color: aliceblue;
-  /*padding: 2em;*/
+  color: rgb(4, 4, 55);
   padding-top: 1em;
   padding-left: 1.75em;
   padding-bottom: 1em;
@@ -53,9 +43,8 @@ div.left {
   flex: 3;
 }
 div.right {
-  /*border: 2px solid grey;*/
   background-color: rgb(220, 230, 239);
-  /*padding: 2em;*/
+  color: rgb(4, 4, 55);
   padding-top: 1em;
   padding-left: 1.75em;
   padding-bottom: 1em;
@@ -75,16 +64,27 @@ h3 {
 h4 {
   text-transform: uppercase;
   font-size: calc(0.1rem + 1vw);
+  padding-top: 3em;
+  padding-bottom: 1em;
 }
 p {
   font-size: calc(0.08em + 1vw);
 }
 a {
   font-size: calc(0.08em + 1vw);
+  color: blue;
+}
+a:visited {
+  color: blueviolet;
 }
 p.name {
   padding-top: 1em;
   font-weight: bold;
+}
+#profile {
+  padding-left: 2em;
+  padding-right: 2em;
+  text-align: justify;
 }
 li {
   font-size: calc(0.08em + 1vw);
