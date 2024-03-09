@@ -69,6 +69,8 @@ div.main {
 h3 {
   text-transform: uppercase;
   font-size: calc(0.1rem + 1vw);
+  padding-top: 3em;
+  padding-bottom: 1em;
 }
 h4 {
   text-transform: uppercase;
@@ -77,6 +79,14 @@ h4 {
 p {
   font-size: calc(0.08em + 1vw);
 }
+a {
+  font-size: calc(0.08em + 1vw);
+}
+p.name {
+  padding-top: 1em;
+  font-weight: bold;
+}
 li {
   font-size: calc(0.08em + 1vw);
+  padding-bottom: 0.5em;
 }
