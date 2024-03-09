@@ -37,7 +37,7 @@ h1 {
   font-size: calc(1rem + 2vw);
 }
 h2 {
-  padding: 0em;
+  padding-bottom: 1em;
   font-weight: lighter;
   /*font-size: 1.5em;*/
   font-size: calc(0.5rem + 1vw);
@@ -75,5 +75,8 @@ h4 {
   font-size: calc(0.1rem + 1vw);
 }
 p {
+  font-size: calc(0.08em + 1vw);
+}
+li {
   font-size: calc(0.08em + 1vw);
 }
